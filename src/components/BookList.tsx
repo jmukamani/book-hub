@@ -9,7 +9,7 @@ interface BookListProps {
 const BookList: React.FC<BookListProps> = ({ books }) => {
   return (
     <div className="bookList">
-      {books.map((book) => (
+      {books.map((book: Book) => (
         <BookCard key={book.id} book={book} />
       ))}
     </div>
