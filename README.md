@@ -77,12 +77,12 @@ book-hub-backend/
 
 **Clone the Repository:**
 ```bash
-git clone https://github.com/your-username/book-hub.git
+git clone https://github.com/jmukamani/book-hub.git
 cd book-hub/book-hub-backend
 ```
 
 **Install Dependencies:**
-```bash
+
 npm install
 ```
 
